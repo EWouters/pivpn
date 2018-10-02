@@ -1276,6 +1276,8 @@ main() {
 
 
         updatePiVPN | tee ${tmpLog}
+	
+        confLogging
     fi
 
     #Move the install log into /etc/pivpn for storage
